@@ -17,7 +17,8 @@
 
 
     <!-- font awesome cdn link  -->
-    <link rel="stylesheet" href="css/fontawesome-free-6.5.1-web/css/all.min.css"><link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="css/fontawesome-free-6.5.1-web/css/all.min.css">
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
 
 
     <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -238,7 +239,7 @@
                             </div>
 
                             <div class="img-threer">
-                                <img src="images/creative-button.png" alt="thumb">
+                                <img src="images/creative-button.png" alt="thumb" width="100">
                             </div>
                         </div>
                     </div>
@@ -731,29 +732,33 @@
                     <div class="col-lg-6 col-md-6">
                         <div class="send">
 
+                            <form action="" method="post">
 
+                                <div class="mb-3">
+                                    <label for="exampleFormControlInput1" class="form-label"></label>
+                                    <input type="text" class="form-control" id="nom"
+                                        placeholder="Entrez votre nom complet*" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="exampleFormControlInput1" class="form-label"></label>
+                                    <input type="email" class="form-control" id="email"
+                                        placeholder="Entrez Votre Email*">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="exampleFormControlInput1" class="form-label"></label>
+                                    <input type="text" class="form-control" id="subject"
+                                        placeholder="Entrez votre sujet*" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="exampleFormControlTextarea1" class="form-label"></label>
+                                    <textarea class="form-control" id="texte" placeholder="Ecrivez içi votre message**"
+                                        rows="5"></textarea>
+                                </div>
 
-
-                            <div class="mb-3">
-                                <label for="exampleFormControlInput1" class="form-label"></label>
-                                <input type="email" class="form-control" id="exampleFormControlInput1"
-                                    placeholder="Entrez Votre nom*">
-                            </div>
-                            <div class="mb-3">
-                                <label for="exampleFormControlInput1" class="form-label"></label>
-                                <input type="email" class="form-control" id="exampleFormControlInput2"
-                                    placeholder="Entrez Votre Email*">
-                            </div>
-                            <div class="mb-3">
-                                <label for="exampleFormControlTextarea1" class="form-label"></label>
-                                <textarea class="form-control" id="exampleFormControlTextarea1"
-                                    placeholder="Ecrivez içi votre message**" rows="5"></textarea>
-                            </div>
-
-                            <div class="send-btn">
-                                <a href="#">ENVOYEZ</a>
-                            </div>
-
+                                <div class="send-btn">
+                                    <a id="valider" href="Javascript:void(0)">ENVOYEZ</a>
+                                </div>
+                            </form>
 
                         </div>
                     </div>
@@ -883,6 +888,34 @@
     <script src="../../../cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
     <script src="js/jquery.counterup.min.js"></script>
     <script src="js/custom.js"></script>
+    <script>
+        let valider = document.getElementById('valider');
+
+        valider.addEventListener('click', () => {
+            let formulaireData = {
+                nom: document.getElementById('nom').value,
+                email: document.getElementById('email').value,
+                texte: document.getElementById('texte').value,
+                subject: document.getElementById('subject').value
+            };
+
+            sessionStorage.setItem('formData', JSON.stringify(formulaireData));
+
+            console.log(JSON.stringify(formulaireData)); // Utilisez formulaireData au lieu de sessionStorage.getItem('formData')
+
+            let xhr = new XMLHttpRequest();
+
+            xhr.open('POST', 'mail.php', true);
+            xhr.setRequestHeader('Content-Type', 'application/json');
+            xhr.send(JSON.stringify(formulaireData)); // Utilisez formulaireData au lieu de sessionStorage.getItem('formData')
+
+            // Réinitialiser le formulaire après l'envoi des données
+            document.getElementById('nom').value = '';
+            document.getElementById('email').value = '';
+            document.getElementById('texte').value = '';
+            document.getElementById('subject').value = '';
+        });
+    </script>
 
 </body>
 
