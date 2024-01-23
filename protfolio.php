@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="fr-FR">
 
-<!-- Mirrored from spaceraceit.com/html/bizpa/service-details.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 16 Dec 2023 04:21:21 GMT -->
+<!-- Mirrored from spaceraceit.com/html/bizpa/protfolio.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 16 Dec 2023 04:20:16 GMT -->
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>service-details</title>
+    <title>protfolio</title>
 
     <!-- googlefont link  -->
     <link href="../../../fonts.googleapis.com/css2f7f7.css?family=DM+Sans&amp;family=Poppins:wght@400;500;600;700&amp;family=Urbanist:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet">  
@@ -25,8 +25,6 @@
 </head>
 <body>
 
-
-
      <!-- preloader  part start  -->
     
      <div id="preloader">
@@ -34,7 +32,6 @@
     </div>
     <!-- preloader  part end  -->
  
-
 
 
 
@@ -93,7 +90,6 @@
 
      <!-- menu part start -->
 
-
      <nav class="menu-bg">
 
         <div class="container">
@@ -104,20 +100,20 @@
 
             <div class="main">
                 <div class="logo">
-                    <a href="index.html">  <img src="images/logo/Logo-1.png" alt="logo"></a>
+                    <a href="index.php">  <img src="images/logo/Logo-1.png" alt="logo"></a>
                   </div>
       
                   <div class="menu">
                     <ul>
-                        <li><a href="index.html">Home</a> <i class="fa-solid fa-angle-down"></i>
+                        <li><a href="index.php">Home</a> <i class="fa-solid fa-angle-down"></i>
                             <ul>
-                                <li><a href="index.html">Home-page-01</a></li>
+                                <li><a href="index.php">Home-page-01</a></li>
                                 <li><a href="home-page-02.html">Home-page-02</a></li>
                                 <li><a href="home-page-03.html">Home-page-03</a></li>
                             </ul></li>
-                        <li><a href="about.html">About Us </a>
+                        <li><a href="about.php">About Us </a>
                         </li>
-                        <li><a href="service.html">Services</a></li>
+                        <li><a href="service.php">Services</a></li>
                         <li><a href="protfolio.html">Portfolio</a></li>
                         <li><a href="#">Pages</a>  <i class="fa-solid fa-angle-down"></i> 
                       
@@ -134,7 +130,7 @@
 
 
                   </li>
-                        <li><a href="contact-us.html">contact us </a> </li>
+                        <li><a href="contact-us.php">contact us </a> </li>
                     </ul>
                 </div>
             </div>
@@ -186,7 +182,7 @@
         </a>
       </div>
       <ul class="nav-links">
-        <li class="dropdown"><a href="index.html">Home</a>
+        <li class="dropdown"><a href="index.php">Home</a>
         
         <ul class="d-menu">
           <li><a href="home-02.html">Home-02</a></li>
@@ -195,21 +191,21 @@
         
         
         </li>
-        <li class="dropdown"><a href="service.html">Service</a>
+        <li class="dropdown"><a href="service.php">Service</a>
             <ul class="d-menu">
                 <li><a href="service-details.html">service-details</a></li>
               </ul>
         
         </li>
         <li>
-          <a href="service.html">Pages</a>
+          <a href="service.php">Pages</a>
         </li>
         <li><a href="protfolio.html">Portfolio</a></li>
         <li><a href="shop.html">Shop</a></li>
         <li >
           <a href="blog.html">Blog</a>
         </li>
-        <li><a href="contact-us.html">Contact</a></li>
+        <li><a href="contact-us.php">Contact</a></li>
       </ul>
       <ul class="social-icons">
         <li>
@@ -257,7 +253,7 @@
             <div class="container">
                 <div class="row">
                     <div class="about-banner-text">
-                        <h1>Service Details</h1>
+                        <h1>Portfolio</h1>
 
                         <div class="about-banner-btm">
                             <div class="text">
@@ -267,7 +263,7 @@
                                 <i class="fa-sharp fa-solid fa-angle-right"></i>
                             </div>
                             <div class="text">
-                                <a href="#">Service Details</a>
+                                <a href="#">Portfolio</a>
                             </div>
                         </div>
                     </div>
@@ -281,284 +277,262 @@
 
 
 
-    <!-- Multimedia  start -->
 
-
-
-<section class="multimedia ">
-    <div class="container">
-  
-
-        <div class="row">
-            <div class="col-lg-12">
-                <div class="multimedia-img">
-                    <img src="images/service-details-mk.webp" class="w-100" alt="mul">
-
-                    <div class="text">
-                        <p>this is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using ‘Content here, content here’, making it look like readable English. Many desktop publishing packages</p>
-                    </div>
-                </div>
-            </div>
-          
-        </div>
-
-
-
-   
-
-
-
-
-        <div class="row">
-            <div class="col-lg-6">
-                <div class="goal">
-                    <div class="goal-item">
-                        <h4>Our Goal</h4>
-                       <div class="goal-inner">
-                        <div class="goal-icon">
-                            <i class="fa-solid fa-check"></i>
-                        </div>
-                        <div class="goal-text">
-                            <p>Business-to-business (B2B) buying </p>
-                        </div>
-                       </div>
-                       <div class="goal-inner">
-                        <div class="goal-icon">
-                            <i class="fa-solid fa-check"></i>
-                        </div>
-                        <div class="goal-text">
-                            <p>Gathering and using demographic data. </p>
-                        </div>
-                       </div>
-                       <div class="goal-inner">
-                        <div class="goal-icon">
-                            <i class="fa-solid fa-check"></i>
-                        </div>
-                        <div class="goal-text">
-                            <p>Marketing to prospective and established </p>
-                        </div>
-                       </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-6">
-                <div class="challange">
-                    <h4>The Challange</h4>
-                    <p>Evernote Web offers a complete lineup of features from any major Maecena quis interdum, orci at euis  dapibus, mass ante pharetra tellus done.</p>
-                </div>
-            </div>
-        </div>
-
-
-
-
-        <div class="row cc">
-            <div class="col-lg-6">
-                <div class="success-ratio">
-                    <div class="success-ratio-item">
-                        <div class="success-ratio-inner">
-                            <div class="success-ratio-text">
-                                <h3>Success Ratio</h3>
-                                <p>We’re best for our success 
-                                    work ration.</p>
-
-                                  <a href="#">Details</a>
-                            </div>
-                            
-                            <div class="circule">
-                                <div class="bonus-per"> 
-                                    <div class="bonus-outer">
-                                        <div class="bonus-inner">
-                                            <div class="number">
-                                                <div class="text">
-                                                    <span>86%</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="svg-img">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="100px" height="100px">
-                                            <circle style="
-                                                stroke-dashoffset: calc(280 - 280 * (84 / 100));
-                                              " cx="50" cy="50" r="45" stroke-linecap="round"></circle>
-                                          </svg>
-                                    </div>
-                                </div>
-                                
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-6">
-                <div class="success-ratio">
-                    <div class="success-ratio-item">
-                        <div class="success-ratio-inner">
-                            <div class="success-ratio-text">
-                                <h3>Failure Ratio</h3>
-                                <p>We’re best for our success
-                                    work ration.</p>
-
-                                  <a href="#">Details</a>
-                            </div>
-                            <div class="circule circule-2 ">
-                                <div class="bonus-per"> 
-                                    <div class="bonus-outer">
-                                        <div class="bonus-inner">
-                                            <div class="number">
-                                                <div class="text">
-                                                    <span>44%</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="svg-img">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="100px" height="100px">
-                                            <circle style="
-                                                stroke-dashoffset: calc(280 - 280 * (46 / 100));
-                                              " cx="50" cy="50" r="45" stroke-linecap="round"></circle>
-                                          </svg>
-                                    </div>
-                                </div>
-                                
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-
-        <div class="row">
-            <div class="contact">
-                <div class="contact-item" >
-                    <div class="contuct-inner">
-                     <div class="icon"><img src="images/icon/location.png" alt="loc"></div>
-                     <div class="text">
-                        <h4>Our Address</h4>
-                        <p>2972 Westheimer Rd. <br>
-                            Santa Ana, Illinois 85486 </p>
-                     </div>
-                    </div>
-                    <div class="contuct-inner">
-                     <div class="icon"><img src="images/icon/call.png" alt="loc"></div>
-                     <div class="text">
-                        <h4>Contact Info</h4>
-                        <p>Open a chat or give us call at </p>
-    
-                        <a href="#">310.841.5500</a>
-                     </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-    </div>
-</section>
-
-
-
-
-
-    <!--Multimedia  end -->
-
-
-
-
-
-    <!-- create part start -->
-
-
-    <section class="create">
+    <section id="tab">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-6 col-sm-6">
-                    <div class="create-text">
-                        <h2>Create visual <br>
-                            strategy learn.</h2>
+      
+          <div class="row justify-content-center">
+            <div class="col-lg-12">
+                <div class="best-work-head">
+                    <h2>Let’s Check our Best work</h2>
+                    <p>Donec dignissim, metus sit amet suscipit mauris vul putate odio, quis cursus nunc urna Aliqum tell us. Quisque hendrerit commodo dignissim. </p>
+
+                    <div class="best-vic-img">
+                        <img src="images/victor/best-vic.png" alt="vic">
                     </div>
-
-                    <div class="create-faq">
-                        <div class="accordion accordion-flush" id="accordionFlushExample">
-                            <div class="accordion-item">
-                              <h2 class="accordion-header" id="flush-headingOne">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                                  <span>Secure & Trsuted</span>
-                                </button>
-                              </h2>
-                              <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-                                <div class="accordion-body">
-                                    <P>Our founders Dustin Moskovitz and Justin quis Rosenstein met while leading Engineering team
-                                        at Facebook. </P>
-                                </div>
-                              </div>
-                            </div>
-                            <div class="accordion-item">
-                              <h2 class="accordion-header" id="flush-headingTwo">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                              <span>Expert Members</span>
-                                </button>
-                              </h2>
-                              <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
-                                <div class="accordion-body">   <P>Our founders Dustin Moskovitz and Justin quis Rosenstein met while leading Engineering team
-                                    at Facebook. </P></div>
-                              </div>
-                            </div>
-                            <div class="accordion-item">
-                              <h2 class="accordion-header" id="flush-headingThree">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-                                  <span>Big Resoruces</span>
-                                </button>
-                              </h2>
-                              <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
-                                <div class="accordion-body">   <P>Our founders Dustin Moskovitz and Justin quis Rosenstein met while leading Engineering team
-                                    at Facebook. </P>.</div>
-                              </div>
-                            </div>
-                          </div>
-                    </div>
-
-
-
-                    <div class="create-btn-two">
-                        <a href="#">View More</a>
-                    </div>
-
-
-
-
 
                 </div>
-
-
-
-                <div class="col-lg-6 col-sm-6">
-                    <div class="create-img">
-                        <img src="images/create.png" class="w-100" alt="create">
-                        <div class="icon">
-                         
-                              
-                               <a class="my-video-links"  data-vbtype="video" href=https://youtu.be/4EvNxWhskf8> <i class="fa-solid fa-play"></i> </a>
-                          
-                       
-                           </div>
-
-                      
-                    </div>
-                </div>
-
-
-
-
-
-
-
             </div>
-        </div>
-    </section>
+          </div>
+      
+      
+      
+      
+      
+      
+             
+                                 <!-- Grid Tab -->
+                                 <div class="tab-pane fade show in active" id="grid" role="tabpanel">
+                                  <!-- Filter Title -->
+                                  <ul class="shaf-filter course-filter">
+                                      <li class="active" data-group="all">UI/UX</li>
+                                      <li data-group="development">Landing</li>
+                                      <li data-group="architecture">Website</li>
+                                      <li data-group="engineering">Website</li>
+                                      <li data-group="science">Finance</li>
+                                  </ul>
+                                  <!-- Filter Title -->
+      
+                                  <!-- Filter Content -->
+                                  <div class="row shafull-container">
+                                      <div class="col-lg-4 col-md-6 shaf-item" data-groups='["all", "science", "development"]'>
+      
+                                        <div class="best-item">
+                                            <div class="best-img">
+                                                <img src="images/prot-1.png" class="w-100" alt="best">
+                                                <div class="best-over">
+                                                 <a href="protfolio-details.html"> <h2>+</h2></a>
+                                                </div>
+                                            </div>
+                                        </div>
+      
+                                
+                                      </div>
+                                      <div class="col-lg-4 col-md-6 shaf-item" data-groups='["engineering"]'>
+      
+                                        <div class="best-item">
+                                            <div class="best-img">
+                                                <img src="images/prot-2.png" class="w-100" alt="best">
+                                                <div class="best-over">
+                                                    <a href="protfolio-details.html"> <h2>+</h2></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        
+                                  
+                                      </div>
+                                      <div class="col-lg-4 col-md-6 shaf-item " data-groups='[ "development"]'>
+                                        <div class="best-item">
+                                            <div class="best-img">
+                                                <img src="images/prot-3.png" class="w-100" alt="best">
+                                                <div class="best-over">
+                                                    <a href="protfolio-details.html"> <h2>+</h2></a>
+                                                </div>
+                                            </div>
+                                        </div>
+      
+                                      </div>
+                                      <div class="col-lg-4 col-md-6  port-top shaf-item " data-groups='["architecture" ]'>
+                                        <div class="best-item">
+                                            <div class="best-img">
+                                                <img src="images/prot-4.png" class="w-100" alt="best">
+                                                <div class="best-over">
+                                                    <a href="protfolio-details.html"> <h2>+</h2></a>
+                                                </div>
+                                            </div>
+                                        </div>
+      
+                                      </div>
+                                      <div class="col-lg-4 col-md-6 port-top shaf-item "   data-groups='[ "science" ]'>
+                                        <div class="best-item">
+                                            <div class="best-img">
+                                                <img src="images/prot-5.png" class="w-100" alt="best">
+                                                <div class="best-over">
+                                                    <a href="protfolio-details.html"> <h2>+</h2></a>
+                                                </div>
+                                            </div>
+                                        </div>
+      
+                                      </div>
+                                      <div class="col-lg-4 col-md-6 port-top shaf-item "   data-groups='[ "science" ]'>
+                                        <div class="best-item">
+                                            <div class="best-img">
+                                                <img src="images/prot-6.png" class="w-100" alt="best">
+                                                <div class="best-over">
+                                                    <a href="protfolio-details.html"> <h2>+</h2></a>
+                                                </div>
+                                            </div>
+                                        </div>
+      
+                                      </div>
+                                      <div class="col-lg-4 col-md-6 port-top shaf-item " data-groups='["architecture" ]'>
+                                        <div class="best-item">
+                                            <div class="best-img">
+                                                <img src="images/prot-3.png" class="w-100" alt="best">
+                                                <div class="best-over">
+                                                    <a href="protfolio-details.html"> <h2>+</h2></a>
+                                                </div>
+                                            </div>
+                                        </div>
+      
+                                      </div>
+                                      <div class="col-lg-4 col-md-6 port-top shaf-item "   data-groups='[ "science" ]'>
+                                        <div class="best-item">
+                                            <div class="best-img">
+                                                <img src="images/prot-2.png" class="w-100" alt="best">
+                                                <div class="best-over">
+                                                    <a href="protfolio-details.html"> <h2>+</h2></a>
+                                                </div>
+                                            </div>
+                                        </div>
+      
+                                      </div>
+                                      <div class="col-lg-4 col-md-6 port-top shaf-item "   data-groups='[ "science" ]'>
+                                        <div class="best-item">
+                                            <div class="best-img">
+                                                <img src="images/prot-1.png" class="w-100" alt="best">
+                                                <div class="best-over">
+                                                    <a href="protfolio-details.html"> <h2>+</h2></a>
+                                                </div>
+                                            </div>
+                                        </div>
+      
+                                      </div>
+                        
+      
+      
+                                  </div>    
+        
+                           
+                              </div>
+                       
+      
+      
+      
+      
+      
+      
+      
+                </div>
+             
+         
+
+      
+      
+      </section>
+        
 
 
-    <!-- create part end -->
+
+
+ 
+        <!-- about part start -->
+
+        <section class="about about-2">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="about-head">
+                            <h2>Some few Words <br>
+                                about Our Company</h2>
+                                <p>Uniquely conceptualize professional leadership skills and leading-edge content. Synergistically reintermediate backend catalysts for change without worldwide ROI. </p>
+                        </div>
+                        <div class="about-middel">
+                            <div class="about-middel-item">
+                                <div class="about-middel-inner">
+                                    <div class="inner">
+                                        <div class="icon">
+                                            <i class="fa-solid fa-check"></i>
+                                        </div>
+                                        <div class="text">
+                                            <p>(B2B) buying  </p>
+                                        </div>
+                                    </div>
+                                    <div class="inner">
+                                        <div class="icon">
+                                            <i class="fa-solid fa-check"></i>
+                                        </div>
+                                        <div class="text">
+                                            <p>demographic data. </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="about-middel-inner">
+                                    <div class="inner">
+                                        <div class="icon">
+                                            <i class="fa-solid fa-check"></i>
+                                        </div>
+                                        <div class="text">
+                                            <p>demographic data. </p>
+                                        </div>
+                                    </div>
+                                    <div class="inner">
+                                        <div class="icon">
+                                            <i class="fa-solid fa-check"></i>
+                                        </div>
+                                        <div class="text">
+                                            <p>Marketing established </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                  
+                        </div>
+    
+                        
+                <div class="about-btn">
+                    <a href="#">Get Started</a>
+                </div>
+                    </div>
+        
+        
+                    <div class="col-lg-6">
+                        <div class="about-img">
+                            <div class="about-img-item">
+                                    <img src="images/about-watch.png" alt="watch">
+                            </div>
+    
+                           
+                        </div>
+                    </div>
+                </div>
+        
+        
+        
+        
+             
+        
+        
+        
+        
+            </div>
+        </section>
+        
+        
+            <!-- about part end -->  
+
+
+
 
 
 
@@ -567,7 +541,7 @@
     
     <!-- ready part start -->
 
- <section id="ready">
+<section id="ready">
     <div class="container">
         <div class="row ">
             <div class="col-lg-12">
@@ -599,7 +573,7 @@
             </div>
         </div>
     </div>
-</section>  
+</section>   
 
     <!-- ready part end -->
 
@@ -626,7 +600,6 @@
 
 
    <!-- footer part start  -->
-
    <footer class="footer-two">
 
 
@@ -684,7 +657,7 @@
                                     <div class="Official-text">
                                         <a href="#">
                                             <p>
-                                                Info.mail@gmail.com</p>
+                                                contact@sigded.com</p>
                                         </a>
                                     </div>
                                 </div>
@@ -729,6 +702,7 @@
 
 
     <script src="js/jquery-1.12.4.min.js"></script>
+    <script src="js/jquery.shuffle.min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/venobox.min.js"></script>
     <script src="js/slick.min.js"></script>
@@ -738,5 +712,5 @@
     
 </body>
 
-<!-- Mirrored from spaceraceit.com/html/bizpa/service-details.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 16 Dec 2023 04:21:29 GMT -->
+<!-- Mirrored from spaceraceit.com/html/bizpa/protfolio.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 16 Dec 2023 04:20:31 GMT -->
 </html>

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="fr-FR">
 
 <!-- Mirrored from spaceraceit.com/html/bizpa/service-details.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 16 Dec 2023 04:21:21 GMT -->
 
@@ -100,20 +100,20 @@
 
                             <div class="main">
                                 <div class="logo">
-                                    <a href="index.html"> <img src="images/logo/logo.png" alt="logo"></a>
+                                    <a href="index.php"> <img src="images/logo/logo.png" alt="logo"></a>
                                 </div>
 
 
                                 <div class="menu">
                                     <ul>
-                                        <li><a href="index.html">Acceuil</a></i>
+                                        <li><a href="index.php">Acceuil</a></i>
                                         </li>
-                                        <li><a href="about.html">A Propos </a>
+                                        <li><a href="about.php">A Propos </a>
                                         </li>
-                                        <li><a href="service.html">Nos Services</a></li>
+                                        <li><a href="service.php">Nos Services</a></li>
 
 
-                                        <li><a href="contact-us.html">contactez-nous </a> </li>
+                                        <li><a href="contact-us.php">contactez-nous </a> </li>
                                     </ul>
                                 </div>
                             </div>
@@ -122,7 +122,7 @@
 
                             <div class="nav-button">
                                 <div class="right">
-                                    <a href="#">Discutez sur WhatsApp</a>
+                                    <a href="https://wa.me/90278468">Discutez sur WhatsApp</a>
                                 </div>
                             </div>
                         </div>
@@ -141,7 +141,7 @@
             <div class="mobile-header__container">
                 <div class="p-left">
                     <div class="logo">
-                        <a href="index.html">
+                        <a href="index.php">
                             <img src="images/logo/logo.png" alt="logo" />
                         </a>
                     </div>
@@ -159,19 +159,19 @@
         <nav class="m-nav">
             <button id="nav-cls-btn"><i class="fa-solid fa-xmark"></i></button>
             <div class="logo">
-                <a href="index.html">
+                <a href="index.php">
                     <img src="images/logo/logo.png" alt="logo" />
                 </a>
             </div>
             <ul class="nav-links">
-                <li><a href="index.html">Acceuil</a>
+                <li><a href="index.php">Acceuil</a>
                 </li>
-                <li><a href="about.html">A Propos </a>
+                <li><a href="about.php">A Propos </a>
                 </li>
-                <li><a href="service.html">Nos Services</a></li>
+                <li><a href="service.php">Nos Services</a></li>
 
 
-                <li><a href="contact-us.html">contactez-nous </a> </li>
+                <li><a href="contact-us.php">contactez-nous </a> </li>
             </ul>
             <ul class="social-icons">
                 <li>
@@ -189,9 +189,6 @@
             </ul>
         </nav>
     </aside>
-
-
-
 
     <!-- menu part end -->
 
@@ -212,11 +209,11 @@
             <div class="container">
                 <div class="row">
                     <div class="about-banner-text">
-                        <h1>Accès à des Ressources Éducatives</h1>
+                        <h1>Élaboration de Plans de Désendettement</h1>
 
                         <div class="about-banner-btm">
                             <div class="text">
-                                <a href="index.html">Acceuil</a>
+                                <a href="index.php">Acceuil</a>
                             </div>
                             <div class="icon">
                                 <i class="fa-sharp fa-solid fa-angle-right"></i>
@@ -247,18 +244,21 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="multimedia-img">
-                            <img src="images/acces.jpg" class="w-100" alt="mul">
+                            <img src="images/elaboration.jpg" class="w-100" alt="mul">
 
                             <div class="text">
-                                <p>Les clients ont accès à une gamme de ressources éducatives en ligne et hors ligne,
-                                    notamment des guides, des vidéos et des articles sur des sujets financiers
-                                    pertinents. Cela renforce l'apprentissage continu et permet aux clients de renforcer
-                                    leurs compétences en gestion financière. </p>
+                                <p>Les plans de désendettement sont conçus en fonction des besoins spécifiques de
+                                    chaque client. En tenant compte de leur situation financière, des conseillers
+                                    élaborent des plans stratégiques détaillés pour rembourser les dettes de
+                                    manière efficace. Ces plans tiennent compte des priorités financières du client,
+                                    de sa capacité de paiement et de ses objectifs à court et à long terme. </p>
                             </div>
                         </div>
                     </div>
 
                 </div>
+
+
 
 
 
@@ -304,10 +304,6 @@
 
 
 
-
-
-
-
         <!-- ready part start -->
 
         <section id="ready">
@@ -336,7 +332,7 @@
                             <p>Ne laissez pas vos erreurs financière gâché votre vie.</p>
                         </div>
                         <div class="ready-btn">
-                            <a href="contact-us.html" style="background-color:#16f098!important; border-color: #16f098!important;">Contactez-nous</a>
+                            <a href="contact-us.php" style="background-color:#16f098!important; border-color: #16f098!important;">Contactez-nous</a>
                         </div>
                     </div>
                 </div>
@@ -344,23 +340,6 @@
         </section>
 
         <!-- ready part end -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -426,7 +405,7 @@
                                     <div class="Official-text">
                                         <a href="#">
                                             <p>
-                                                Info.mail@gmail.com</p>
+                                                contact@sigded.com</p>
                                         </a>
                                     </div>
                                 </div>

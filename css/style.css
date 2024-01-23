@@ -47861,3 +47861,30 @@ body {
     transform: translateY(-20px);
   }
 }/*# sourceMappingURL=style.css.map */
+
+button{
+  border-color: transparent;
+  background-color: transparent;
+  font-weight: bold;
+}
+
+button:hover{
+  border-color: transparent;
+  background-color: transparent;
+  font-weight: bold;
+  color:white;
+}
+
+.question-send .send-btn a button:hover{
+  color: #2662FA;
+}
+
+/*****************************************************************************************************************************************************************/
+
+.success-img img{
+  width: 450px!important;
+}
+
+.success-img-1 img{
+  width: 120px!important;
+}

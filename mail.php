@@ -1,7 +1,7 @@
 <?php
 session_start();
 
-$mail_me = "texto.sigded@gmail.com";
+$mail_me = "contact@sigded.com";
 
 // Récupérer les données envoyées depuis le client
 $data = json_decode(file_get_contents('php://input'), true);

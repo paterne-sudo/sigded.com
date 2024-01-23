@@ -1,7 +1,27 @@
-<!DOCTYPE html>
-<html lang="fr">
+<?php
 
-<!-- Mirrored from spaceraceit.com/html/bizpa/contact-us.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 16 Dec 2023 04:21:29 GMT -->
+$mail_me = "contact@sigded.com";
+
+if (isset($_POST['valider']) || $_SERVER['REQUEST_METHOD'] == 'POST') {
+    # code...
+    $nom = $_POST['nom'];
+    $email = $_POST['email'];
+    $subject = $_POST['subject'];
+    $message = $_POST['texte'];
+
+    $headers = "From: " . $email . "\r\n";
+    $headers .= "Reply-To: " . $email . "\r\n";
+    $headers .= "MIME-Version: 1.0\r\n";
+    $headers .= "Content-Type: text/plain; charset=UTF-8\r\n";
+
+    mail($mail_me, $subject, $message, $headers);
+}
+
+?>
+<!DOCTYPE html>
+<html lang="fr-FR">
+
+<!-- Mirrored from spaceraceit.com/html/bizpa/contact-us.php by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 16 Dec 2023 04:21:29 GMT -->
 
 <head>
   <meta charset="UTF-8">
@@ -99,20 +119,20 @@
 
               <div class="main">
                 <div class="logo">
-                  <a href="index.html"> <img src="images/logo/logo.png" alt="logo"></a>
+                  <a href="index.php"> <img src="images/logo/logo.png" alt="logo"></a>
                 </div>
 
 
                 <div class="menu">
                   <ul>
-                    <li><a href="index.html">Acceuil</a></i>
+                    <li><a href="index.php">Acceuil</a></i>
                     </li>
-                    <li><a href="about.html">A Propos </a>
+                    <li><a href="about.php">A Propos </a>
                     </li>
-                    <li><a href="service.html">Nos Services</a></li>
+                    <li><a href="service.php">Nos Services</a></li>
 
 
-                    <li><a href="contact-us.html">contactez-nous </a> </li>
+                    <li><a href="contact-us.php">contactez-nous </a> </li>
                   </ul>
                 </div>
               </div>
@@ -121,7 +141,7 @@
 
               <div class="nav-button">
                 <div class="right">
-                  <a href="#">Discutez sur WhatsApp</a>
+                  <a href="https://wa.me/90278468">Discutez sur WhatsApp</a>
                 </div>
               </div>
             </div>
@@ -140,7 +160,7 @@
       <div class="mobile-header__container">
         <div class="p-left">
           <div class="logo">
-            <a href="index.html">
+            <a href="index.php">
               <img src="images/logo/logo.png" alt="logo" />
             </a>
           </div>
@@ -158,19 +178,19 @@
     <nav class="m-nav">
       <button id="nav-cls-btn"><i class="fa-solid fa-xmark"></i></button>
       <div class="logo">
-        <a href="index.html">
+        <a href="index.php">
           <img src="images/logo/logo.png" alt="logo" />
         </a>
       </div>
       <ul class="nav-links">
-        <li><a href="index.html">Acceuil</a>
+        <li><a href="index.php">Acceuil</a>
         </li>
-        <li><a href="about.html">A Propos </a>
+        <li><a href="about.php">A Propos </a>
         </li>
-        <li><a href="service.html">Nos Services</a></li>
+        <li><a href="service.php">Nos Services</a></li>
 
 
-        <li><a href="contact-us.html">contactez-nous </a> </li>
+        <li><a href="contact-us.php">contactez-nous </a> </li>
       </ul>
       <ul class="social-icons">
         <li>
@@ -214,7 +234,7 @@
 
             <div class="about-banner-btm">
               <div class="text">
-                <a href="index.html">Acceuil</a>
+                <a href="index.php">Acceuil</a>
               </div>
               <div class="icon">
                 <i class="fa-sharp fa-solid fa-angle-right"></i>
@@ -254,7 +274,7 @@
                 </div>
                 <div class="text">
                   <h3>Email</h3>
-                  <a href="#">Support@Tazkily</a>
+                  <a href="#">contact@sigded.com</a>
                 </div>
               </div>
             </div>
@@ -267,7 +287,7 @@
                 </div>
                 <div class="text">
                   <h3>Numero de telephone</h3>
-                  <a href="#">(123) 431 3456</a>
+                  <a href="#">(229) 90 27 84 68</a>
                 </div>
               </div>
             </div>
@@ -298,26 +318,24 @@
 
                 <div class="mb-3">
                   <label for="exampleFormControlInput1" class="form-label"></label>
-                  <input type="text" class="form-control" id="nom" placeholder="Entrez votre nom complet*" required>
+                  <input type="text" class="form-control" name="nom" placeholder="Entrez votre nom complet*" required>
                 </div>
                 <div class="mb-3">
                   <label for="exampleFormControlInput1" class="form-label"></label>
-                  <input type="email" class="form-control" id="email" placeholder="Entrez Votre Email*">
+                  <input type="email" class="form-control" name="email" placeholder="Entrez Votre Email*">
                 </div>
                 <div class="mb-3">
                   <label for="exampleFormControlInput1" class="form-label"></label>
-                  <input type="text" class="form-control" id="subject" placeholder="Entrez votre sujet*" required>
+                  <input type="text" class="form-control" name="subject" placeholder="Entrez votre sujet*" required>
                 </div>
                 <div class="mb-3 b">
                   <label for="exampleFormControlTextarea1" class="form-label"></label>
-                  <textarea class="form-control" id="texte" placeholder="Ecrivez içi votre message**"
+                  <textarea class="form-control" name="texte" placeholder="Ecrivez içi votre message**"
                     rows="5"></textarea>
                 </div>
 
                 <div class="send-btn">
-                  <a href="Javascript:void(0)" id="valider"
-                    style="background-color:#16f098!important; border-color: #16f098!important;">SEND
-                    MESSAGE</a>
+                  <a><button type="submit" name="valider">VALIDER</button></a>
                 </div>
             </div>
           </div>
@@ -395,7 +413,7 @@
                   <div class="Official-text">
                     <a href="#">
                       <p>
-                        Info.mail@gmail.com</p>
+                        contact@sigded.com</p>
                     </a>
                   </div>
                 </div>
@@ -445,36 +463,8 @@
   <script src="../../../cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
   <script src="js/jquery.counterup.min.js"></script>
   <script src="js/custom.js"></script>
-  <script>
-    let valider = document.getElementById('valider');
-
-    valider.addEventListener('click', () => {
-      let formulaireData = {
-        nom: document.getElementById('nom').value,
-        email: document.getElementById('email').value,
-        texte: document.getElementById('texte').value,
-        subject: document.getElementById('subject').value
-      };
-
-      sessionStorage.setItem('formData', JSON.stringify(formulaireData));
-
-      console.log(JSON.stringify(formulaireData)); // Utilisez formulaireData au lieu de sessionStorage.getItem('formData')
-
-      let xhr = new XMLHttpRequest();
-
-      xhr.open('POST', 'mail.php', true);
-      xhr.setRequestHeader('Content-Type', 'application/json');
-      xhr.send(JSON.stringify(formulaireData)); // Utilisez formulaireData au lieu de sessionStorage.getItem('formData')
-
-      // Réinitialiser le formulaire après l'envoi des données
-      document.getElementById('nom').value = '';
-      document.getElementById('email').value = '';
-      document.getElementById('texte').value = '';
-      document.getElementById('subject').value = '';
-    });
-  </script>
 </body>
 
-<!-- Mirrored from spaceraceit.com/html/bizpa/contact-us.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 16 Dec 2023 04:21:29 GMT -->
+<!-- Mirrored from spaceraceit.com/html/bizpa/contact-us.php by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 16 Dec 2023 04:21:29 GMT -->
 
 </html>

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="fr-FR">
 
-<!-- Mirrored from spaceraceit.com/html/bizpa/service.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 16 Dec 2023 04:20:12 GMT -->
+<!-- Mirrored from spaceraceit.com/html/bizpa/service-details.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 16 Dec 2023 04:21:21 GMT -->
 
 <head>
     <meta charset="UTF-8">
@@ -16,8 +16,7 @@
 
 
     <!-- font awesome cdn link  -->
-    <link rel="stylesheet" href="css/fontawesome-free-6.5.1-web/css/all.min.css">
-    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="css/fontawesome-free-6.5.1-web/css/all.min.css"><link rel="icon" type="image/x-icon" href="images/favicon.ico">
 
 
     <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -31,6 +30,7 @@
 <body>
 
 
+
     <!-- preloader  part start  -->
 
     <div id="preloader">
@@ -41,7 +41,8 @@
 
 
 
-    <header class="header-three">
+
+ <header class="header-three">
         <div class="container">
             <div class="header-main">
                 <div class="header-left">
@@ -99,20 +100,20 @@
 
                             <div class="main">
                                 <div class="logo">
-                                    <a href="index.html"> <img src="images/logo/logo.png" alt="logo"></a>
+                                    <a href="index.php"> <img src="images/logo/logo.png" alt="logo"></a>
                                 </div>
 
 
                                 <div class="menu">
                                     <ul>
-                                        <li><a href="index.html">Acceuil</a></i>
+                                        <li><a href="index.php">Acceuil</a></i>
                                         </li>
-                                        <li><a href="about.html">A Propos </a>
+                                        <li><a href="about.php">A Propos </a>
                                         </li>
-                                        <li><a href="service.html">Nos Services</a></li>
+                                        <li><a href="service.php">Nos Services</a></li>
 
 
-                                        <li><a href="contact-us.html">contactez-nous </a> </li>
+                                        <li><a href="contact-us.php">contactez-nous </a> </li>
                                     </ul>
                                 </div>
                             </div>
@@ -121,7 +122,7 @@
 
                             <div class="nav-button">
                                 <div class="right">
-                                    <a href="#">Discutez sur WhatsApp</a>
+                                    <a href="https://wa.me/90278468">Discutez sur WhatsApp</a>
                                 </div>
                             </div>
                         </div>
@@ -140,7 +141,7 @@
             <div class="mobile-header__container">
                 <div class="p-left">
                     <div class="logo">
-                        <a href="index.html">
+                        <a href="index.php">
                             <img src="images/logo/logo.png" alt="logo" />
                         </a>
                     </div>
@@ -158,19 +159,19 @@
         <nav class="m-nav">
             <button id="nav-cls-btn"><i class="fa-solid fa-xmark"></i></button>
             <div class="logo">
-                <a href="index.html">
+                <a href="index.php">
                     <img src="images/logo/logo.png" alt="logo" />
                 </a>
             </div>
             <ul class="nav-links">
-                <li><a href="index.html">Acceuil</a>
+                <li><a href="index.php">Acceuil</a>
                 </li>
-                <li><a href="about.html">A Propos </a>
+                <li><a href="about.php">A Propos </a>
                 </li>
-                <li><a href="service.html">Nos Services</a></li>
+                <li><a href="service.php">Nos Services</a></li>
 
 
-                <li><a href="contact-us.html">contactez-nous </a> </li>
+                <li><a href="contact-us.php">contactez-nous </a> </li>
             </ul>
             <ul class="social-icons">
                 <li>
@@ -210,17 +211,17 @@
             <div class="container">
                 <div class="row">
                     <div class="about-banner-text">
-                        <h1>Nos Services</h1>
+                        <h1>Négociation de Dettes avec les Créanciers</h1>
 
                         <div class="about-banner-btm">
                             <div class="text">
-                                <a href="index.html">Acceuil</a>
+                                <a href="index.php">Acceuil</a>
                             </div>
                             <div class="icon">
                                 <i class="fa-sharp fa-solid fa-angle-right"></i>
                             </div>
                             <div class="text">
-                                <a href="#">Services</a>
+                                <a href="#">Details</a>
                             </div>
                         </div>
                     </div>
@@ -234,171 +235,65 @@
 
 
 
-        <!-- solutions start -->
+        <!-- Multimedia  start -->
 
 
-        <section class="solutions">
+
+        <section class="multimedia ">
             <div class="container">
+
+
                 <div class="row">
                     <div class="col-lg-12">
-                        <div class="solutions-head">
-                            <h2>Nos services</h2>
+                        <div class="multimedia-img">
+                            <img src="images/Negociation.jpg" class="w-100" alt="mul">
 
-                            <div class="solution-vic-img">
-                                <img src="images/victor/service-vic.png" alt="vic">
+                            <div class="text">
+                                <p>La négociation de dettes est une prestation clé. L'entreprise agit en tant
+                                    qu'intermédiaire entre les clients et leurs créanciers, négociant des modalités
+                                    de paiement plus favorables. Cela peut inclure des réductions de dettes, des taux
+                                    d'intérêt révisés ou des plans de paiement échelonnés. Les négociateurs de
+                                    dettes expérimentés utilisent leur expertise pour parvenir à des accords qui
+                                    soulagent la charge financière des clients. </p>
                             </div>
                         </div>
                     </div>
-                </div>
 
-
-                <div class="row mmmm-top">
-                    <div class="row blog-slick ">
-                        <div class="col-lg-4 col-sm-6  b-pad">
-                            <div class="blog-item" style="border-color: black;border-width: 10px !important;">
-                                <div class="blog-img">
-                                    <img src="images/consulation.jpg" alt="BLOG">
-                                </div>
-    
-    
-    
-                                <div class="link">
-    
-                                    <a href="consultation.html">Consultation Financière Personnalisée.</a>
-                                </div>
-    
-    
-                                <div class="blog-btn">
-                                    <a href="consultation.html">En savoir +</a>
-                                </div>
-    
-    
-    
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-sm-6 b-pad">
-                            <div class="blog-item">
-                                <div class="blog-img">
-                                    <img src="images/Negociation.jpg" alt="BLOG">
-                                </div>
-    
-    
-    
-                                <div class="link">
-    
-                                    <a href="negociation.html">Négociation de Dettes avec les Créanciers.</a>
-                                </div>
-    
-    
-    
-                                <div class="blog-btn">
-                                    <a href="negociation.html">En savoir +</a>
-                                </div>
-    
-    
-    
-                            </div>
-                        </div>
-                        <div class="col-lg-4 d-lg-block b-pad">
-                            <div class="blog-item">
-                                <div class="blog-img">
-                                    <img src="images/education.jpg" alt="BLOG">
-                                </div>
-    
-    
-    
-                                <div class="link">
-    
-                                    <a href="education.html">Éducation Financière et Gestiondes Finances
-                                        Personnelles.</a>
-                                </div>
-    
-    
-    
-                                <div class="blog-btn">
-                                    <a href="education.html">En savoir +</a>
-                                </div>
-    
-    
-    
-    
-                            </div>
-                        </div>
-    
-                    </div>
-                    <div class="row blog-slick ">
-                        <div class="col-lg-4 col-sm-6  b-pad">
-                            <div class="blog-item">
-                                <div class="blog-img">
-                                    <img src="images/elaboration.jpg" alt="BLOG">
-                                </div>
-    
-    
-    
-                                <div class="link">
-    
-                                    <a href="elaboration.html">Élaboration de Plans de Désendettement.</a>
-                                </div>
-    
-    
-                                <div class="blog-btn">
-                                    <a href="elaboration.html">En savoir +</a>
-                                </div>
-    
-    
-    
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-sm-6 b-pad">
-                            <div class="blog-item">
-                                <div class="blog-img">
-                                    <img src="images/suivie.jpg" alt="BLOG">
-                                </div>
-    
-    
-    
-                                <div class="link">
-    
-                                    <a href="suivie.html">Suivi et Soutien Continu.</a>
-                                </div>
-    
-    
-    
-                                <div class="blog-btn">
-                                    <a href="suivie.html">En savoir +</a>
-                                </div>
-    
-    
-    
-                            </div>
-                        </div>
-                        <div class="col-lg-4 d-lg-block b-pad">
-                            <div class="blog-item">
-                                <div class="blog-img">
-                                    <img src="images/acces.jpg" alt="BLOG">
-                                </div>
-    
-    
-    
-                                <div class="link">
-    
-                                    <a href="acces.html">Accès à des Ressources Éducatives.</a>
-                                </div>
-    
-    
-    
-                                <div class="blog-btn">
-                                    <a href="acces.html">En savoir +</a>
-                                </div>
-                            </div>
-                        </div>
-    
-                    </div>
                 </div>
 
 
 
 
+
+
+
+
+
+
+
+                <div class="row">
+                    <div class="contact">
+                        <div class="contact-item">
+                            <div class="contuct-inner">
+                                <div class="icon"><img src="images/icon/location.png" alt="loc"></div>
+                                <div class="text">
+                                    <h4>Notre adresse</h4>
+                                    <p>2972 Westheimer Rd. <br>
+                                        Abomey-Calvi, Bénin </p>
+                                </div>
+                            </div>
+                            <div class="contuct-inner">
+                                <div class="icon"><img src="images/icon/call.png" alt="loc"></div>
+                                <div class="text">
+                                    <h4>Contact Info</h4>
+                                    <p>Ouvrir une discussion ou contactez-nous </p>
+
+                                    <a href="#">+229 90278468</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
             </div>
         </section>
@@ -407,14 +302,19 @@
 
 
 
-        <!-- solutions end -->
+        <!--Multimedia  end -->
 
 
 
 
 
+        <!-- create part start -->
 
 
+
+
+
+        <!-- create part end -->
 
 
 
@@ -449,12 +349,14 @@
                             <p>Ne laissez pas vos erreurs financière gâché votre vie.</p>
                         </div>
                         <div class="ready-btn">
-                            <a href="contact-us.html" style="background-color:#16f098!important; border-color: #16f098!important;">Contactez-nous</a>
+                            <a href="#"
+                                style="background-color:#16f098!important; border-color: #16f098!important;">Contactez-nous</a>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
+
         <!-- ready part end -->
 
 
@@ -538,7 +440,7 @@
                                     <div class="Official-text">
                                         <a href="#">
                                             <p>
-                                                Info.mail@gmail.com</p>
+                                                contact@sigded.com</p>
                                         </a>
                                     </div>
                                 </div>
@@ -592,6 +494,6 @@
 
 </body>
 
-<!-- Mirrored from spaceraceit.com/html/bizpa/service.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 16 Dec 2023 04:20:16 GMT -->
+<!-- Mirrored from spaceraceit.com/html/bizpa/service-details.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 16 Dec 2023 04:21:29 GMT -->
 
 </html>

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="fr-FR">
 
 <!-- Mirrored from spaceraceit.com/html/bizpa/service-details.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 16 Dec 2023 04:21:21 GMT -->
 
@@ -100,20 +100,20 @@
 
                             <div class="main">
                                 <div class="logo">
-                                    <a href="index.html"> <img src="images/logo/logo.png" alt="logo"></a>
+                                    <a href="index.php"> <img src="images/logo/logo.png" alt="logo"></a>
                                 </div>
 
 
                                 <div class="menu">
                                     <ul>
-                                        <li><a href="index.html">Acceuil</a></i>
+                                        <li><a href="index.php">Acceuil</a></i>
                                         </li>
-                                        <li><a href="about.html">A Propos </a>
+                                        <li><a href="about.php">A Propos </a>
                                         </li>
-                                        <li><a href="service.html">Nos Services</a></li>
+                                        <li><a href="service.php">Nos Services</a></li>
 
 
-                                        <li><a href="contact-us.html">contactez-nous </a> </li>
+                                        <li><a href="contact-us.php">contactez-nous </a> </li>
                                     </ul>
                                 </div>
                             </div>
@@ -122,7 +122,7 @@
 
                             <div class="nav-button">
                                 <div class="right">
-                                    <a href="#">Discutez sur WhatsApp</a>
+                                    <a href="https://wa.me/90278468">Discutez sur WhatsApp</a>
                                 </div>
                             </div>
                         </div>
@@ -141,7 +141,7 @@
             <div class="mobile-header__container">
                 <div class="p-left">
                     <div class="logo">
-                        <a href="index.html">
+                        <a href="index.php">
                             <img src="images/logo/logo.png" alt="logo" />
                         </a>
                     </div>
@@ -159,19 +159,19 @@
         <nav class="m-nav">
             <button id="nav-cls-btn"><i class="fa-solid fa-xmark"></i></button>
             <div class="logo">
-                <a href="index.html">
+                <a href="index.php">
                     <img src="images/logo/logo.png" alt="logo" />
                 </a>
             </div>
             <ul class="nav-links">
-                <li><a href="index.html">Acceuil</a>
+                <li><a href="index.php">Acceuil</a>
                 </li>
-                <li><a href="about.html">A Propos </a>
+                <li><a href="about.php">A Propos </a>
                 </li>
-                <li><a href="service.html">Nos Services</a></li>
+                <li><a href="service.php">Nos Services</a></li>
 
 
-                <li><a href="contact-us.html">contactez-nous </a> </li>
+                <li><a href="contact-us.php">contactez-nous </a> </li>
             </ul>
             <ul class="social-icons">
                 <li>
@@ -211,11 +211,11 @@
             <div class="container">
                 <div class="row">
                     <div class="about-banner-text">
-                        <h1>Éducation Financière et Gestiondes Finances Personnelles</h1>
+                        <h1>Suivi et Soutien Continu</h1>
 
                         <div class="about-banner-btm">
                             <div class="text">
-                                <a href="index.html">Acceuil</a>
+                                <a href="index.php">Acceuil</a>
                             </div>
                             <div class="icon">
                                 <i class="fa-sharp fa-solid fa-angle-right"></i>
@@ -246,22 +246,19 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="multimedia-img">
-                            <img src="images/education.jpg" class="w-100" alt="mul">
+                            <img src="images/suivie.jpg" class="w-100" alt="mul">
 
                             <div class="text">
-                                <p>L'éducation financière est un pilier important des services. Des ateliers
-                                    interactifs et des séances de formation sont proposés pour aider les clients à
-                                    développer des compétences en gestion financière. Ces sessions abordent des
-                                    sujets tels que la budgétisation, la planification financière, la gestion des
-                                    dépenses, l'utilisation responsable des crédits et la prévention de l'endettement
-                                    excessif. L'objectif est d'autonomiser les clients à prendre des décisions
-                                    financières éclairées. </p>
+                                <p>Les services offrent un suivi continu pour garantir que les clients restent sur la
+                                    bonne voie avec leurs plans de désendettement et leurs objectifs financiers. Les
+                                    conseillers fournissent un soutien personnalisé pour répondre aux questions,
+                                    ajuster les plans en fonction des changements de circonstances et offrir des
+                                    conseils tout au long du processus. </p>
                             </div>
                         </div>
                     </div>
 
                 </div>
-
 
 
 
@@ -307,13 +304,6 @@
 
 
 
-        <!-- create part start -->
-
-
-
-
-        <!-- create part end -->
-
 
 
 
@@ -347,7 +337,7 @@
                             <p>Ne laissez pas vos erreurs financière gâché votre vie.</p>
                         </div>
                         <div class="ready-btn">
-                            <a href="contact-us.html" style="background-color:#16f098!important; border-color: #16f098!important;">Contactez-nous</a>
+                            <a href="contact-us.php" style="background-color:#16f098!important; border-color: #16f098!important;">Contactez-nous</a>
                         </div>
                     </div>
                 </div>
@@ -437,7 +427,7 @@
                                     <div class="Official-text">
                                         <a href="#">
                                             <p>
-                                                Info.mail@gmail.com</p>
+                                                contact@sigded.com</p>
                                         </a>
                                     </div>
                                 </div>

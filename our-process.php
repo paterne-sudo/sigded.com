@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="fr-FR">
 
 <!-- Mirrored from spaceraceit.com/html/bizpa/our-process.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 16 Dec 2023 04:21:09 GMT -->
 <head>
@@ -102,21 +102,21 @@
 
             <div class="main">
                 <div class="logo">
-                    <a href="index.html">  <img src="images/logo/Logo-1.png" alt="logo"></a>
+                    <a href="index.php">  <img src="images/logo/Logo-1.png" alt="logo"></a>
                   </div>
       
       
                   <div class="menu">
                     <ul>
-                        <li><a href="index.html">Home</a> <i class="fa-solid fa-angle-down"></i>
+                        <li><a href="index.php">Home</a> <i class="fa-solid fa-angle-down"></i>
                             <ul>
-                                <li><a href="index.html">Home-page-01</a></li>
+                                <li><a href="index.php">Home-page-01</a></li>
                                 <li><a href="home-page-02.html">Home-page-02</a></li>
                                 <li><a href="home-page-03.html">Home-page-03</a></li>
                             </ul></li>
-                        <li><a href="about.html">About Us </a>
+                        <li><a href="about.php">About Us </a>
                         </li>
-                        <li><a href="service.html">Services</a></li>
+                        <li><a href="service.php">Services</a></li>
                         <li><a href="protfolio.html">Portfolio</a></li>
                         <li><a href="#">Pages</a>  <i class="fa-solid fa-angle-down"></i> 
                       
@@ -133,7 +133,7 @@
 
 
                   </li>
-                        <li><a href="contact-us.html">contact us </a> </li>
+                        <li><a href="contact-us.php">contact us </a> </li>
                     </ul>
                 </div>
             </div>
@@ -185,7 +185,7 @@
         </a>
       </div>
       <ul class="nav-links">
-        <li class="dropdown"><a href="index.html">Home</a>
+        <li class="dropdown"><a href="index.php">Home</a>
         
         <ul class="d-menu">
           <li><a href="home-02.html">Home-02</a></li>
@@ -194,21 +194,21 @@
         
         
         </li>
-        <li class="dropdown"><a href="service.html">Service</a>
+        <li class="dropdown"><a href="service.php">Service</a>
             <ul class="d-menu">
                 <li><a href="service-details.html">service-details</a></li>
               </ul>
         
         </li>
         <li>
-          <a href="service.html">Pages</a>
+          <a href="service.php">Pages</a>
         </li>
         <li><a href="protfolio.html">Portfolio</a></li>
         <li><a href="shop.html">Shop</a></li>
         <li >
           <a href="blog.html">Blog</a>
         </li>
-        <li><a href="contact-us.html">Contact</a></li>
+        <li><a href="contact-us.php">Contact</a></li>
       </ul>
       <ul class="social-icons">
         <li>
@@ -814,7 +814,7 @@
                                     <div class="Official-text">
                                         <a href="#">
                                             <p>
-                                                Info.mail@gmail.com</p>
+                                                contact@sigded.com</p>
                                         </a>
                                     </div>
                                 </div>
